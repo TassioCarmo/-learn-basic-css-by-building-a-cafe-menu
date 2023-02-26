@@ -6,3 +6,10 @@ The <code>title</code> is one of several elements that provide extra information
 For the styling of the page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
 
 <code>< meta name="viewport" content="width=device-width, initial-scale=1.0" /></code>
+
+You can add the same group of styles to many elements by creating a list of selectors. Each selector is separated with commas like this:
+<code><
+selector1, selector2 {
+  property: value;
+}
+</code>
