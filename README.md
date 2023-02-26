@@ -16,4 +16,4 @@ selector1, selector2 {
 
 ##  For the styling of the page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
 
-<code><meta name="viewport" content="width=device-width, initial-scale=1.0" /></code>
+<code> meta name="viewport" content="width=device-width, initial-scale=1.0" / </code>
