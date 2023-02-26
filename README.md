@@ -17,3 +17,12 @@ selector1, selector2 {
 ##  For the styling of the page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
 
 <code> meta name="viewport" content="width=device-width, initial-scale=1.0" / </code>
+
+  
+###  Comments in CSS look like this:
+
+/* comment here */
+  
+### You change properties of a link when the link has actually been visited by using a pseudo-selector that looks like a:visited { propertyName: propertyValue; }.
+
+### You change properties of a link when the link is actually being clicked by using a pseudo-selector that looks like a:active { propertyName: propertyValue; }.
